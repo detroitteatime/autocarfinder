@@ -1,0 +1,43 @@
+<resources>
+
+    <string name="app_name">Auto Car Finder</string>
+    <string name="menu_settings">Settings</string>
+    <string name="sleep">Set Sleep Time</string>
+    <string name="no_sleep">Remove Sleep Time</string>
+    <string name="reset">Reset</string>
+    <string name="set">Set</string>
+    <string name="cancel">Cancel</string>
+    <string name="start_time">Start Time</string>
+    <string name="end_time">End Time</string>
+    <string name="start">Start Monitoring</string>
+    <string name="stop">Stop Monitoring</string>
+    <string name="find">Find Car</string>
+    <string name="sleep_prompt">Set service sleep time to conserve battery?</string>
+    <string name="time_picker_dialog_title">Set Sleep Time</string>
+    <string name="title_activity_main">Auto Car Finder</string>
+    <string name="action_settings">Action Settings</string>
+    <string name="info">Info</string>
+    <string name="how_to">Thank you for choosing Auto Car Finder. There are two ways to use this app. First, you can set the position of your car 
+        mamually (if you remember to do so) by pressing the \"Manual Set\"key. Or you can turn on a background service (press \"Start Monitoring\" on main screen) that 
+        periodically (every 5 minutes) checks your sensor information to see if you are driving. If you are it continues checking until it thinks
+        you have parked. If not, it shuts down and checks again in 5 minutes. Basically you turn on the service and forget about it until you
+        need to know where your car is. When you forget where your car is the app will display its location. \n\n
+        
+        If you want to use Google Maps to navigate, 
+        press the button by that name. You can also toggle between map and hybrid map and satellite views by pressiong the button on the upper left part of the screen.
+        In addition, there is a battery saving feature that allows you to tell the service to stop checking during sleeping hours. You can set this by selecting
+        the appropriate menu item. You can also turn this feature off. \n\n
+        
+        Furthermore, some phones require the screen to be completely on for the sensors to work. If you have one of these phones (see Google Play site for this app
+        for a partial list) toggle the Change to FULL_WAKE_LOCK menu item. You can toggle it back to the default as well. \n\n
+        
+        Also, this app will not work if you cannot get a GPS signal: it will not work in places where there are no GPS signals (lower levels of tall parking structures, places surrounded by
+        tall buildings). If you drive less than 5 minutes there is a chance the app will not detect your movement, as it checks only every 5 minutes. This app also 
+        requires that you heve an accelerometer and the Google Maps app installed.\n\n
+        
+        Finally, this app will not keep track of your car if it is stolen. It merely tries to detect when you get out of your car and set your car\'s position. \n\n
+        
+        I hope this app is as useful to you as it is to me! </string>
+    <string name="legal">Legal</string>
+
+</resources>

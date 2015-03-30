@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp" >
+
+    <TextView
+        android:id="@+id/begPrompt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/begPicker"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/start_time" />
+
+    <TimePicker
+        android:id="@+id/begPicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/begPrompt"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp" />
+
+    <TimePicker
+        android:id="@+id/endPicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/begPicker"
+        android:layout_below="@+id/endPrompt" />
+
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/endPicker"
+        android:layout_below="@+id/endPicker"
+        android:layout_marginTop="15dp"
+        android:text="@string/cancel" />
+
+    <TextView
+        android:id="@+id/sleepPrompt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/sleep_prompt"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:id="@+id/endPrompt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/begPicker"
+        android:layout_below="@+id/begPicker"
+        android:layout_marginTop="14dp"
+        android:text="@string/end_time" />
+
+    <Button
+        android:id="@+id/set"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/cancel"
+        android:layout_alignBottom="@+id/cancel"
+        android:layout_alignLeft="@+id/endPicker"
+        android:text="@string/set" />
+
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/sleep_settings"
+        android:title="Sleep Settings">
+        <menu>
+            <item
+                android:id="@+id/sleep"
+                android:title="@string/sleep"/>
+            <item
+                android:id="@+id/no_sleep"
+                android:title="@string/no_sleep"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/more"
+        android:title="More">
+        <menu>
+            <item
+                android:id="@+id/info"
+                android:title="@string/info"/>
+            <item
+                android:id="@+id/legal"
+                android:title="@string/legal"/>
+            <item
+                android:id="@+id/set_wakelock"
+                android:title="test"/>
+        </menu>
+    </item>
+
+</menu>
